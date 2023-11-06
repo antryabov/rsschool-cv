@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1440">
+    <title>Anton Ryabov</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./assets/img/favicon-16x16.png">
+    <link rel="icon" href="./assets/img/favicon-32x32.png">
+</head>
+<body>
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="container">
+                <nav class="nav-site">
+                    <ul class="nav-site__list">
+                        <li class="nav-site__item">
+                            <a href="#contacts" class="nav-site__link">Contacts</a>
+                        </li>
+                        <li class="nav-site__item">
+                            <a href="#summary" class="nav-site__link">Summary</a>
+                        </li>
+                        <li class="nav-site__item">
+                            <a href="#skills" class="nav-site__link">Skills</a>
+                        </li>
+                        <li class="nav-site__item">
+                            <a href="#code" class="nav-site__link">Code example</a>
+                        </li>
+                        <li class="nav-site__item">
+                            <a href="#education" class="nav-site__link">Education</a>
+                        </li>
+                        <li class="nav-site__item">
+                            <a href="#language" class="nav-site__link">Language</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="container">
+                <section class="hero" id="hero">
+                    <div class="hero__wrapper-title">
+                        <h1 class="hero__title">Anton Ryabov</h1>
+                        <h2 class="hero__subtitle">Junior Front-end Developer</h2>
+                    </div>
+                    <img src="./assets/img/my_photo_1.jpg" alt="Anton Ryabov photo" class="hero__img">
+                </section>
+                <section class="contacts" id="contacts">
+                    <h2 class="contacts__title">Contacts</h2>
+                    <ul class="contacts__list">
+                        <li class="contacts__item">E-mail: <a href="mailto:antonryabovtmb@yandex.ru" class="contacts__link"><span>antonryabovtmb@yandex.ru</span></a></li>
+                        <li class="contacts__item">Telegram: <span>@antryabovv</span></li>
+                        <li class="contacts__item">Discord: <span>Anton Ryabov (@antryabov)</span></li>
+                        <li class="contacts__item">GitHub: <a href="https://github.com/antryabov" class="contacts__link"><span>antryabov</span></a></li>
+                    </ul>
+                </section>
+                <section class="summary" id="summary">
+                    <h2 class="summary__title">Summary</h2>
+                    <p class="summary__text">My name is Anton and I’m a system administrator now. And also I’m studying a front-end development course. I’m really obsessed with this sphere! My main goal is to invest all my time and efforts to maximize the effectiveness of my studying and become a demand specialist in future. I try to develop and improve my skills and knowledge every day and, to be true, it works.</p>
+                </section>
+                <section class="skills" id="skills">
+                    <h2 class="skills__title">Skills</h2>
+                    <p class="skills__text">I have basic knowledge of HTML/CSS/JS. I’m also a confident GIT user. And every day I learn something new, it motivates me more and more.</p>
+                </section>
+                <section class="code-example" id="code">
+                    <h2 class="code-example__title">Code example</h2>
+                    <p class="code-example__desc"><i>Remove First and Last Character</i></p>
+                    <pre><code class="code-example__block-code"> 
+                    function removeChar(str) {
+                        return str.substr(1, str.length - 2)
+                    };
+                    </code></pre>
+                </section>
+                <section class="education" id="education">
+                    <h2 class="education__title">Education</h2>
+                    <p class="education__text">Now I’m studying The Rolling Scopes School course.</p>
+                    <p class="education__text">As for my other education stage - I have a Bachelor Degree in Information Systems and Technologies (Tambov State Technical University) - 2018-2023.</p>
+                </section>
+                <section class="language" id="language">
+                    <h2 class="language__title">Language</h2>
+                    <p class="language__text">Russian in a native speaker level. And I intensively study English to improve it. I also find as much as possible time to study front-end course and English to build a career future.</p>
+                </section>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <section class="copyright">
+                    <h2 class="copyright__title--hidden">CV</h2>
+                    <ul class="copyright__list">
+                        <li class="copyright__item">
+                            &copy;2023 Anton Ryabov
+                        </li>
+                        <li class="copyright__item">
+                            <a href="https://github.com/antryabov">GitHub</a>
+                        </li>
+                        <li class="copyright__item">
+                            <a href="https://rs.school/js/">
+                                <img src="./assets/img/rs_school_js.svg" alt="logo The Rolling Scopes School" width="100" height="100">
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>
