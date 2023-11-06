@@ -21,6 +21,7 @@ html {
 }
 
 body {
+    min-width: 1440px;
     font-family: 'Gotham Pro', sans-serif;
     font-size: 18px;
     font-weight: 400;
