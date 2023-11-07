@@ -5,7 +5,7 @@
 }
 
 html {
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
 }
 
 @font-face {
@@ -40,6 +40,7 @@ body {
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    padding: 0 55px 0 55px;
 }
 
 
@@ -73,9 +74,9 @@ body {
 	position: absolute;
 	left: 0;
 	width: 0;
-	height: 2px; 
-	background-color: #ffffff; 
-	transition: width 0.3s ease-out; 
+	height: 2px;
+	background-color: #ffffff;
+	transition: width 0.3s ease-out;
 }
 
 .nav-site__link:focus::after,
@@ -86,7 +87,7 @@ body {
 /*main*/
 .contacts__item {
     list-style-type: square;
-} 
+}
 
 .section__title {
     margin-bottom: 10px;
@@ -126,8 +127,8 @@ body {
     content: '';
 	left: 0;
 	width: 0;
-	height: 2px; 
-	background-color: #000000; 
+	height: 2px;
+	background-color: #000000;
 }
 
 .contacts__item a {
