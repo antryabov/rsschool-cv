@@ -1,8 +1,16 @@
 # CV
 
+# Anton Ryabov
+
+## Contact information
+
+- antonryabovdev@gmail.com
+- telegram: @antonryabov
+- github: link [https://github.com/antryabov]
+
 ## Summary
 
-My name is Anton, I’m 26 and I’m a system administrator now. And also I’m studying a front-end development course. I’m really obsessed with this sphere! My main goal is to invest all my time and efforts to maximize the effectiveness of my studying and become a demand specialist in future. I try to develop and improve my skills and knowledge every day and, to be true, it works.
+My name is Anton, I’m 27 and I’m a system administrator now. And also I’m studying a front-end development course. I’m really obsessed with this sphere! My main goal is to invest all my time and efforts to maximize the effectiveness of my studying and become a demand specialist in future. I try to develop and improve my skills and knowledge every day and, to be true, it works.
 
 ## Skills
 
