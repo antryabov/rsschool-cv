@@ -1,0 +1,7 @@
+@import "./styles/fonts.css";
+
+body {
+  font-family: "Fira-code", monospace;
+  font-weight: normal;
+  font-style: normal;
+}
