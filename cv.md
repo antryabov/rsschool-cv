@@ -4,9 +4,9 @@
 
 ## Contact information
 
-- antonryabovdev@gmail.com
-- telegram: @antonryabov
-- github: link [https://github.com/antryabov]
+- email: antonryabovdev@gmail.com
+- telegram: antryabovv
+- github: [link](https://github.com/antryabov)
 
 ## Summary
 
