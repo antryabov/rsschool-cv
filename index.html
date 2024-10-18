@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Anton Ryabov's CV." />
+    <meta
+      name="keywords"
+      content="cv, resume, developer, anton ryabov developer"
+    />
+    <title>CV</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicons/favicon-32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicons/favicon-16.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="header__nav">
+          <ul class="nav__list">
+            <li><a href="#" class="nav__list-item">Blog</a></li>
+            <li>
+              <a href="#" class="nav__list-item"
+                ><span class="list-item__download">Download CV</span></a
+              >
+            </li>
+            <li><a href="#" class="nav__list-item">What's New!</a></li>
+          </ul>
+        </nav>
+        <div class="header__burger--mobile" style="display: none">
+          <button class="header__burger-button">Menu</button>
+          <div></div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="main__slider-control">
+          <button class="slider-control__prev"><</button>
+          <button class="slider-control__next">></button>
+        </div>
+        <div class="main__slider-wrapper">
+          <div class="main__slider-info">
+            <section class="main__about">
+              <div class="about__info">
+                <div class="info__greeting">Hi, I am Anton</div>
+                <div class="info__skill">frontend developer</div>
+              </div>
+              <div class="about__photo">
+                <img
+                  src="./assets/img/photo.jpg"
+                  alt="Anton Ryabov photo"
+                  width="410"
+                  height="500"
+                />
+              </div>
+            </section>
+            <section class="main__info">
+              <div class="info__education">
+                <h2 class="education__title">Education</h2>
+                <p class="education__text">
+                  Now I’m studying The Rolling Scopes School. As for my other
+                  education stage - I have a Bachelor Degree in Information
+                  Systems and Technologies specialization (Tambov State
+                  Technical University) - 2018-2023.
+                </p>
+              </div>
+              <div class="info__skills">
+                <h2 class="skills-title">Skills</h2>
+                <p class="skills-text">
+                  I have knowledge of HTML/CSS/JS. Worked with React library.
+                  Wrote unit tests in Jest. Tried using FSD frontend application
+                  architecture. I am also a confident user of GIT. And every day
+                  I learn something new and it motivates me more and more.
+                </p>
+              </div>
+              <div class="info__languages">
+                <h2 class="_languages-title">Languages</h2>
+                <p class="languages-text">
+                  Russian in a native speaker level. And also I intensively
+                  study English to improve it. I also find as much as possible
+                  time to study front-end course and English to build a career
+                  in future.
+                </p>
+              </div>
+            </section>
+            <section class="main__skills"></section>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <ul class="footer__list-info">
+          <li class="list-info__item">2024</li>
+          <li class="list-info__item">RSSchool</li>
+          <li class="list-info__item">Logo</li>
+        </ul>
+      </footer>
+    </div>
+    <script src="./scripts/main.js" defer></script>
+  </body>
+</html>
